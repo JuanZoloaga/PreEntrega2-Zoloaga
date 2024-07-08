@@ -126,7 +126,7 @@ for(i=0; i<carritoCompras.length; i++){
     sumarCarrito += carritoCompras[i].precio * carritoCompras[i].cantidad
 }
 
-alert("Señor/a" + cliente.nombre+ " " + cliente.apellido + "deberá pagar un total de $"+ sumarCarrito+"\n. Por los productos:\n"+carritoDisplay)
+alert("Señor/a" + cliente.nombre+ " " + cliente.apellido + "deberá pagar un total de $"+ sumarCarrito+"\n. Por los productos:\n"+carritoDisplay.join("\n"))
 alert("gracias por su compra!! :)");
 
 
